@@ -1,0 +1,9 @@
+#login broker 
+ssh wwang2@kbroker.hpc.nrel.gov
+#check VPN, if not connecting
+
+module load conda
+#load HELICS env
+
+helics_broker --localinterface=kbroker.hpc.nrel.gov:26600 --loglevel=trace -f 3 -t tcp_ss
+

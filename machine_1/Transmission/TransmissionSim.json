@@ -1,0 +1,38 @@
+{
+  "total_time": 3,
+  "coreType": "zmq",
+  "loglevel": 5,
+  "name": "TransmissionSim",
+  "simulation_step_time": 0.02,
+  "period": 0.01,
+  "publications": {
+    "transmission/bus11/voltage": {
+      "type": "complex",
+      "unit": "pu",
+      "vbase_unit": "kv",
+      "topic": "transmission/bus11/voltage",
+      "value": "Voltage",
+      "element_name": "11",
+      "element_type": "Bus"
+    },
+    
+      "transmission/bus11/frequnecy":{
+      "type": "double",
+      "unit": "Hz",
+      "topic": "transmission/bus11/frequency",
+      "value": "Frequency",
+      "element_name": "11",
+      "element_type": "Bus"
+    }
+  },
+  "subscriptions": {
+    "13Bus": {
+      "type": "complex",
+      "required": true,
+      "topic": "13Bus/Totalpower",
+      "value": "Powers",
+      "element_name": "11",
+      "bus_PQ_index": 8
+    }
+  }
+}

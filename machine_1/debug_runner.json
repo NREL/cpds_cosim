@@ -1,0 +1,17 @@
+{
+  "name": "runner",
+  "federates": [
+    {
+      "directory": ".",
+      "exec": "python -u broker.py",
+      "host": "localhost",
+      "name": "broker"
+    },
+    {
+      "directory": "./Distribution",
+      "exec": "python -u 13Bus.py",
+      "host": "localhost",
+      "name": "13Bus"
+    }
+    ]
+}

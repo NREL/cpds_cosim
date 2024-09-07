@@ -1,0 +1,7 @@
+Creating Broker
+Created Broker
+Checking if Broker is connected
+Checked if Broker is connected
+Broker created and connected
+[2024-05-21 14:38:39.205] [console] [warning] commWarning||93864-jrZXW-SkkL3-KdbyQ-aRrOR (1)[operating]::unknown route and no broker, dropping message pub:From (131072) handle(1) size 24 at 9.5 to 131073
+Broker disconnected

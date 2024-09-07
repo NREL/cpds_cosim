@@ -1,0 +1,1424 @@
+    Sets PSSE environment to latest minor version among installed versions of PSSE 35.
+    Use psse35.set_minor(n) to set PSSE35 minor version (n) to use.
+        Example, for PSSE 35.0.x, use this as: psse35.set_minor(0)
+reading json okay!
+TransmissionSim: Combination federate created
+TransmissionSim: Entering execution mode
+
+ PSS(R)E Version 35
+ Copyright (c) 1976-2024
+ Siemens Industry, Inc.,
+ Power Technologies International                            (PTI)
+ This program is a confidential  unpublished  work  created  and  first
+ licensed in 1976.  It is a trade secret which is the property of  PTI.
+ All use,  disclosure,  and/or reproduction not specifically authorized
+ by  PTI  is prohibited.   This  program is protected  under  copyright
+ laws  of  non-U.S.  countries  and  by  application  of  international
+ treaties.  All  Rights  Reserved  Under  The  Copyright  Laws.
+
+
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+
+      200000 BUS POWER SYSTEM SIMULATOR--PSS(R)E-35.6.0
+
+             INITIATED ON TUE, AUG 06 2024  17:17
+
+  IEEE 14 BUS TEST CASE
+  03/06/14 CONTO           100.0  1962 W
+
+ The Saved Case in file C:\Users\wwang2\Documents\OE_GridAppsD\simulation\cosim2_for_pscad\Transmission\ieee_14\ieee14_reduced_inertia.cnv was saved on TUE, JUN 04 2024  15:49
+
+ The Snapshot at TIME = 2.00015 in file C:\Users\wwang2\Documents\OE_GridAppsD\simulation\cosim2_for_pscad\Transmission\ieee_14\ieee14_reduced_inertia.snp was saved on TUE, JUN 04 2024  15:49
+
+ NUMBER OF ELEMENTS RESTORED:
+    CONS  STATES    VARS   ICONS  CHANNELS
+     276      87      25      10      26
+->> Loading psse OK ...
+1    PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E     TUE, AUG 06 2024  17:17
+  IEEE 14 BUS TEST CASE                                              AREA TOTALS
+  03/06/14 CONTO           100.0  1962 W                              IN MW/MVAR
+                 FROM ------AT AREA BUSES-------              TO            TO XFRMR                   -NET INTERCHANGE-
+                GENE- FROM IND   TO IND       TO   TO BUS  GNE BUS  TO LINE  MAGNE-      FROM     TO     TO TIE  TO TIES  DESIRED
+ X-- AREA --X  RATION GENERATN   MOTORS     LOAD    SHUNT  DEVICES    SHUNT   TIZING CHARGING   LOSSES    LINES  + LOADS  NET INT
+
+    1           161.5      0.0      0.0    127.1      0.0      0.0      0.0      0.0      0.0      2.0     32.4     32.4      0.0
+ AREA1           32.0      0.0      0.0     49.3     -0.0      0.0     -0.0     -0.0     23.4      6.8     -0.7     -0.7
+
+    2            65.0      0.0      0.0     96.6      0.0      0.0      0.0      0.0      0.0      0.8    -32.4    -32.4      0.0
+ AREA2           20.0      0.0      0.0     46.1    -33.8      0.0     -0.0     -0.0      0.0      7.0      0.7      0.7
+
+ COLUMN         226.5      0.0      0.0    223.7      0.0      0.0      0.0      0.0      0.0      2.8      0.0      0.0      0.0
+ TOTALS          52.0      0.0      0.0     95.4    -33.8      0.0      0.0      0.0     23.4     13.7      0.0      0.0
+1    PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E     TUE, AUG 06 2024  17:17
+  IEEE 14 BUS TEST CASE
+  03/06/14 CONTO           100.0  1962 W
+
+ BUSES WITH VOLTAGE GREATER THAN 1.0500:
+
+   BUS#-SCT X-- NAME --X BASKV AREA  V(PU)  V(KV)      BUS#-SCT X-- NAME --X BASKV AREA  V(PU)  V(KV)
+
+                                            * NONE *
+
+
+ BUSES WITH VOLTAGE LESS THAN 0.9500:
+
+   BUS#-SCT X-- NAME --X BASKV AREA  V(PU)  V(KV)      BUS#-SCT X-- NAME --X BASKV AREA  V(PU)  V(KV)
+
+                                            * NONE *
+=========================
+->> Simulation start ...
+Flat start 1 sec Dynamic run uses time: 2 seconds (= 0 minutes).
+=== time step = 0 seconds ===
+current_time = 0
+psse_current_time = 0.020834999158978462
+Received active power from 13Bus at time 0: -1e+49 kw
+for bus_name=11, bus_PQ_index=8 
+manually set up first step load bus P and Q
+Sent voltage mag at time 0: 0.9924425482749939 pu from Bus 11
+Sent voltage ang at time 0: -7.045036792755127 deg from Bus 11
+Sent Frequency at time 0: 60.000000018693235 Hz
+=== time step = 0.02 seconds ===
+current_time = 0.02
+psse_current_time = 0.020834999158978462
+Received active power from 13Bus at time 0.02: 2307.4832028657825 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.02: 0.9924425482749939 pu from Bus 11
+Sent voltage ang at time 0.02: -7.045036792755127 deg from Bus 11
+Sent Frequency at time 0.02: 60.000000018693235 Hz
+=== time step = 0.04 seconds ===
+current_time = 0.04
+psse_current_time = 0.041669994592666626
+Received active power from 13Bus at time 0.04: 2316.9340690302706 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.04: 0.993194043636322 pu from Bus 11
+Sent voltage ang at time 0.04: -6.880552291870117 deg from Bus 11
+Sent Frequency at time 0.04: 60.00205579512112 Hz
+=== time step = 0.060000000000000005 seconds ===
+current_time = 0.060000000000000005
+psse_current_time = 0.06250498443841934
+Received active power from 13Bus at time 0.060000000000000005: 2486.69123516903 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.060000000000000005: 0.9932212233543396 pu from Bus 11
+Sent voltage ang at time 0.060000000000000005: -6.852506637573242 deg from Bus 11
+Sent Frequency at time 0.060000000000000005: 60.0029685649497 Hz
+=== time step = 0.08 seconds ===
+current_time = 0.08
+psse_current_time = 0.08333997428417206
+Received active power from 13Bus at time 0.08: 2814.800212080096 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.08: 0.9931439161300659 pu from Bus 11
+Sent voltage ang at time 0.08: -6.846829414367676 deg from Bus 11
+Sent Frequency at time 0.08: 60.00309515329718 Hz
+=== time step = 0.1 seconds ===
+current_time = 0.1
+psse_current_time = 0.10000796616077423
+Received active power from 13Bus at time 0.1: 2568.789613015351 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.1: 0.9929730296134949 pu from Bus 11
+Sent voltage ang at time 0.1: -6.869359493255615 deg from Bus 11
+Sent Frequency at time 0.1: 60.00275943602901 Hz
+=== time step = 0.12000000000000001 seconds ===
+current_time = 0.12000000000000001
+psse_current_time = 0.12084295600652695
+Received active power from 13Bus at time 0.12000000000000001: 2322.823792412141 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.12000000000000001: 0.9931706786155701 pu from Bus 11
+Sent voltage ang at time 0.12000000000000001: -6.814904689788818 deg from Bus 11
+Sent Frequency at time 0.12000000000000001: 60.00314648197673 Hz
+=== time step = 0.14 seconds ===
+current_time = 0.14
+psse_current_time = 0.14167797565460205
+Received active power from 13Bus at time 0.14: 2321.437113105732 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.14: 0.9933646321296692 pu from Bus 11
+Sent voltage ang at time 0.14: -6.750771522521973 deg from Bus 11
+Sent Frequency at time 0.14: 60.00398093252443 Hz
+=== time step = 0.16 seconds ===
+current_time = 0.16
+psse_current_time = 0.16251300275325775
+Received active power from 13Bus at time 0.16: 2318.636112216333 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.16: 0.9934117794036865 pu from Bus 11
+Sent voltage ang at time 0.16: -6.7116312980651855 deg from Bus 11
+Sent Frequency at time 0.16: 60.00454631197499 Hz
+=== time step = 0.18000000000000002 seconds ===
+current_time = 0.18000000000000002
+psse_current_time = 0.18334802985191345
+Received active power from 13Bus at time 0.18000000000000002: 2315.833227310097 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.18000000000000002: 0.9934607744216919 pu from Bus 11
+Sent voltage ang at time 0.18000000000000002: -6.669544219970703 deg from Bus 11
+Sent Frequency at time 0.18000000000000002: 60.00500844602357 Hz
+=== time step = 0.2 seconds ===
+current_time = 0.2
+psse_current_time = 0.200016051530838
+Received active power from 13Bus at time 0.2: 2315.496263382306 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.2: 0.993500292301178 pu from Bus 11
+Sent voltage ang at time 0.2: -6.63340425491333 deg from Bus 11
+Sent Frequency at time 0.2: 60.00536641004146 Hz
+=== time step = 0.22 seconds ===
+current_time = 0.22
+psse_current_time = 0.2208510786294937
+Received active power from 13Bus at time 0.22: 2314.483102028149 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.22: 0.9935469627380371 pu from Bus 11
+Sent voltage ang at time 0.22: -6.585424900054932 deg from Bus 11
+Sent Frequency at time 0.22: 60.00582371620112 Hz
+=== time step = 0.24000000000000002 seconds ===
+current_time = 0.24000000000000002
+psse_current_time = 0.24168610572814941
+Received active power from 13Bus at time 0.24000000000000002: 1716.579820829228 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.24000000000000002: 0.9935930371284485 pu from Bus 11
+Sent voltage ang at time 0.24000000000000002: -6.533737659454346 deg from Bus 11
+Sent Frequency at time 0.24000000000000002: 60.00629238769761 Hz
+=== time step = 0.26 seconds ===
+current_time = 0.26
+psse_current_time = 0.26252108812332153
+Received active power from 13Bus at time 0.26: 1643.4439208898646 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.26: 0.9940110445022583 pu from Bus 11
+Sent voltage ang at time 0.26: -6.396228313446045 deg from Bus 11
+Sent Frequency at time 0.26: 60.00781670969445 Hz
+=== time step = 0.28 seconds ===
+current_time = 0.28
+psse_current_time = 0.28335604071617126
+Received active power from 13Bus at time 0.28: 2370.2356219781136 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.28: 0.9941158890724182 pu from Bus 11
+Sent voltage ang at time 0.28: -6.312597274780273 deg from Bus 11
+Sent Frequency at time 0.28: 60.00888234906597 Hz
+=== time step = 0.30000000000000004 seconds ===
+current_time = 0.30000000000000004
+psse_current_time = 0.30002400279045105
+Received active power from 13Bus at time 0.30000000000000004: 2337.504056514988 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.30000000000000004: 0.9937164187431335 pu from Bus 11
+Sent voltage ang at time 0.30000000000000004: -6.346044540405273 deg from Bus 11
+Sent Frequency at time 0.30000000000000004: 60.008413511677645 Hz
+=== time step = 0.32 seconds ===
+current_time = 0.32
+psse_current_time = 0.3208589553833008
+Received active power from 13Bus at time 0.32: 1494.0465960818904 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.32: 0.9937869310379028 pu from Bus 11
+Sent voltage ang at time 0.32: -6.277375221252441 deg from Bus 11
+Sent Frequency at time 0.32: 60.00845229806146 Hz
+=== time step = 0.34 seconds ===
+current_time = 0.34
+psse_current_time = 0.3416939079761505
+Received active power from 13Bus at time 0.34: 2075.194984252811 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.34: 0.9943562150001526 pu from Bus 11
+Sent voltage ang at time 0.34: -6.090457439422607 deg from Bus 11
+Sent Frequency at time 0.34: 60.01032972126268 Hz
+=== time step = 0.36000000000000004 seconds ===
+current_time = 0.36000000000000004
+psse_current_time = 0.36252886056900024
+Received active power from 13Bus at time 0.36000000000000004: 2005.985379313292 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.36000000000000004: 0.9940569400787354 pu from Bus 11
+Sent voltage ang at time 0.36000000000000004: -6.074394702911377 deg from Bus 11
+Sent Frequency at time 0.36000000000000004: 60.01047951984219 Hz
+=== time step = 0.38 seconds ===
+current_time = 0.38
+psse_current_time = 0.38336381316185
+Received active power from 13Bus at time 0.38: 2266.1830972344833 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.38: 0.994152843952179 pu from Bus 11
+Sent voltage ang at time 0.38: -5.979678153991699 deg from Bus 11
+Sent Frequency at time 0.38: 60.010959975770675 Hz
+=== time step = 0.4 seconds ===
+current_time = 0.4
+psse_current_time = 0.40003177523612976
+Received active power from 13Bus at time 0.4: 1587.2965259345249 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.4: 0.9940314292907715 pu from Bus 11
+Sent voltage ang at time 0.4: -5.940826892852783 deg from Bus 11
+Sent Frequency at time 0.4: 60.01103467162466 Hz
+=== time step = 0.42000000000000004 seconds ===
+current_time = 0.42000000000000004
+psse_current_time = 0.4208667278289795
+Received active power from 13Bus at time 0.42000000000000004: 2490.7222339824225 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.42000000000000004: 0.9944978356361389 pu from Bus 11
+Sent voltage ang at time 0.42000000000000004: -5.7583909034729 deg from Bus 11
+Sent Frequency at time 0.42000000000000004: 60.0125669647241 Hz
+=== time step = 0.44 seconds ===
+current_time = 0.44
+psse_current_time = 0.4417016804218292
+Received active power from 13Bus at time 0.44: 1553.0324305098154 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.44: 0.993990421295166 pu from Bus 11
+Sent voltage ang at time 0.44: -5.77232027053833 deg from Bus 11
+Sent Frequency at time 0.44: 60.01201475271955 Hz
+=== time step = 0.46 seconds ===
+current_time = 0.46
+psse_current_time = 0.46253663301467896
+Received active power from 13Bus at time 0.46: 2157.3207831609666 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.46: 0.9946115612983704 pu from Bus 11
+Sent voltage ang at time 0.46: -5.551660060882568 deg from Bus 11
+Sent Frequency at time 0.46: 60.01365422678646 Hz
+=== time step = 0.48000000000000004 seconds ===
+current_time = 0.48000000000000004
+psse_current_time = 0.4833715856075287
+Received active power from 13Bus at time 0.48000000000000004: 2026.4728202035972 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.48000000000000004: 0.9942883253097534 pu from Bus 11
+Sent voltage ang at time 0.48000000000000004: -5.515127182006836 deg from Bus 11
+Sent Frequency at time 0.48000000000000004: 60.01367654185742 Hz
+=== time step = 0.5 seconds ===
+current_time = 0.5
+psse_current_time = 0.5000395774841309
+Received active power from 13Bus at time 0.5: 2108.5296066921533 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.5: 0.9944038987159729 pu from Bus 11
+Sent voltage ang at time 0.5: -5.411992073059082 deg from Bus 11
+Sent Frequency at time 0.5: 60.01405845017871 Hz
+=== time step = 0.52 seconds ===
+This trip should be once!
+current_time = 0.52
+psse_current_time = 0.5208746790885925
+Received active power from 13Bus at time 0.52: 2150.6359766734454 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.52: 0.9765573740005493 pu from Bus 11
+Sent voltage ang at time 0.52: -8.064423561096191 deg from Bus 11
+Sent Frequency at time 0.52: 59.95483712176792 Hz
+=== time step = 0.54 seconds ===
+current_time = 0.54
+psse_current_time = 0.5417097806930542
+Received active power from 13Bus at time 0.54: 1780.885260954087 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.54: 0.9730604887008667 pu from Bus 11
+Sent voltage ang at time 0.54: -8.910992622375488 deg from Bus 11
+Sent Frequency at time 0.54: 59.921970502473414 Hz
+=== time step = 0.56 seconds ===
+current_time = 0.56
+psse_current_time = 0.5625448822975159
+Received active power from 13Bus at time 0.56: 1725.7759201994384 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.56: 0.969990611076355 pu from Bus 11
+Sent voltage ang at time 0.56: -9.72351360321045 deg from Bus 11
+Sent Frequency at time 0.56: 59.90481531713158 Hz
+=== time step = 0.5800000000000001 seconds ===
+current_time = 0.5800000000000001
+psse_current_time = 0.5833799839019775
+Received active power from 13Bus at time 0.5800000000000001: 1946.7236115700882 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.5800000000000001: 0.9669471383094788 pu from Bus 11
+Sent voltage ang at time 0.5800000000000001: -10.659975051879883 deg from Bus 11
+Sent Frequency at time 0.5800000000000001: 59.89088327391073 Hz
+=== time step = 0.6000000000000001 seconds ===
+current_time = 0.6000000000000001
+psse_current_time = 0.6000480651855469
+Received active power from 13Bus at time 0.6000000000000001: 2034.450055643888 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.6000000000000001: 0.9645254015922546 pu from Bus 11
+Sent voltage ang at time 0.6000000000000001: -11.527777671813965 deg from Bus 11
+Sent Frequency at time 0.6000000000000001: 59.879184630699456 Hz
+=== time step = 0.62 seconds ===
+current_time = 0.62
+psse_current_time = 0.6208831667900085
+Received active power from 13Bus at time 0.62: 2333.579276555719 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.62: 0.9618918895721436 pu from Bus 11
+Sent voltage ang at time 0.62: -12.69909954071045 deg from Bus 11
+Sent Frequency at time 0.62: 59.86385048367083 Hz
+=== time step = 0.64 seconds ===
+current_time = 0.64
+psse_current_time = 0.6417182683944702
+Received active power from 13Bus at time 0.64: 1617.607669854867 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.64: 0.9593691825866699 pu from Bus 11
+Sent voltage ang at time 0.64: -14.031185150146484 deg from Bus 11
+Sent Frequency at time 0.64: 59.847332295030355 Hz
+=== time step = 0.66 seconds ===
+current_time = 0.66
+psse_current_time = 0.6625533699989319
+Received active power from 13Bus at time 0.66: 1757.3513157821008 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.66: 0.9578730463981628 pu from Bus 11
+Sent voltage ang at time 0.66: -15.333337783813477 deg from Bus 11
+Sent Frequency at time 0.66: 59.83234394341707 Hz
+=== time step = 0.68 seconds ===
+current_time = 0.68
+psse_current_time = 0.6833884716033936
+Received active power from 13Bus at time 0.68: 1712.7438276877008 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.68: 0.9560006260871887 pu from Bus 11
+Sent voltage ang at time 0.68: -16.878047943115234 deg from Bus 11
+Sent Frequency at time 0.68: 59.81609473004937 Hz
+=== time step = 0.7000000000000001 seconds ===
+current_time = 0.7000000000000001
+psse_current_time = 0.7000565528869629
+Received active power from 13Bus at time 0.7000000000000001: 1753.040724715434 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.7000000000000001: 0.9547751545906067 pu from Bus 11
+Sent voltage ang at time 0.7000000000000001: -18.183338165283203 deg from Bus 11
+Sent Frequency at time 0.7000000000000001: 59.8029383411631 Hz
+=== time step = 0.7200000000000001 seconds ===
+current_time = 0.7200000000000001
+psse_current_time = 0.7208916544914246
+Received active power from 13Bus at time 0.7200000000000001: 1817.2370372319444 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.7200000000000001: 0.9533469676971436 pu from Bus 11
+Sent voltage ang at time 0.7200000000000001: -19.940509796142578 deg from Bus 11
+Sent Frequency at time 0.7200000000000001: 59.78635714855045 Hz
+=== time step = 0.74 seconds ===
+current_time = 0.74
+psse_current_time = 0.7417267560958862
+Received active power from 13Bus at time 0.74: 1798.9051273576472 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.74: 0.9520704746246338 pu from Bus 11
+Sent voltage ang at time 0.74: -21.82545280456543 deg from Bus 11
+Sent Frequency at time 0.74: 59.76972822099924 Hz
+=== time step = 0.76 seconds ===
+current_time = 0.76
+psse_current_time = 0.7625618577003479
+Received active power from 13Bus at time 0.76: 2147.563595998146 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.76: 0.9510071277618408 pu from Bus 11
+Sent voltage ang at time 0.76: -23.819562911987305 deg from Bus 11
+Sent Frequency at time 0.76: 59.75339787080884 Hz
+=== time step = 0.78 seconds ===
+current_time = 0.78
+psse_current_time = 0.7833969593048096
+Received active power from 13Bus at time 0.78: 2110.57312012479 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.78: 0.9497917890548706 pu from Bus 11
+Sent voltage ang at time 0.78: -25.992595672607422 deg from Bus 11
+Sent Frequency at time 0.78: 59.73648710176349 Hz
+=== time step = 0.8 seconds ===
+current_time = 0.8
+psse_current_time = 0.8000650405883789
+Received active power from 13Bus at time 0.8: 1445.9250553274255 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.8: 0.949133574962616 pu from Bus 11
+Sent voltage ang at time 0.8: -27.772499084472656 deg from Bus 11
+Sent Frequency at time 0.8: 59.72352703101933 Hz
+=== time step = 0.8200000000000001 seconds ===
+current_time = 0.8200000000000001
+psse_current_time = 0.8209001421928406
+Received active power from 13Bus at time 0.8200000000000001: 2699.7771506007493 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.8200000000000001: 0.948891282081604 pu from Bus 11
+Sent voltage ang at time 0.8200000000000001: -29.997005462646484 deg from Bus 11
+Sent Frequency at time 0.8200000000000001: 59.70917422324419 Hz
+=== time step = 0.8400000000000001 seconds ===
+current_time = 0.8400000000000001
+psse_current_time = 0.8417352437973022
+Received active power from 13Bus at time 0.8400000000000001: 1791.7987635828633 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.8400000000000001: 0.9472772479057312 pu from Bus 11
+Sent voltage ang at time 0.8400000000000001: -32.63219451904297 deg from Bus 11
+Sent Frequency at time 0.8400000000000001: 59.691560100764036 Hz
+=== time step = 0.8600000000000001 seconds ===
+current_time = 0.8600000000000001
+psse_current_time = 0.8625703454017639
+Received active power from 13Bus at time 0.8600000000000001: 2036.1674727903737 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.8600000000000001: 0.9473603963851929 pu from Bus 11
+Sent voltage ang at time 0.8600000000000001: -35.0606575012207 deg from Bus 11
+Sent Frequency at time 0.8600000000000001: 59.67734523117542 Hz
+=== time step = 0.88 seconds ===
+current_time = 0.88
+psse_current_time = 0.8834054470062256
+Received active power from 13Bus at time 0.88: 1558.2027674344467 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.88: 0.9466546773910522 pu from Bus 11
+Sent voltage ang at time 0.88: -37.75859832763672 deg from Bus 11
+Sent Frequency at time 0.88: 59.66245366260409 Hz
+=== time step = 0.9 seconds ===
+current_time = 0.9
+psse_current_time = 0.9000735282897949
+Received active power from 13Bus at time 0.9: 2045.685218468228 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.9: 0.9466444253921509 pu from Bus 11
+Sent voltage ang at time 0.9: -39.89189529418945 deg from Bus 11
+Sent Frequency at time 0.9: 59.65163399465382 Hz
+=== time step = 0.92 seconds ===
+current_time = 0.92
+psse_current_time = 0.9209086298942566
+Received active power from 13Bus at time 0.92: 1555.4063256607444 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.92: 0.9458547830581665 pu from Bus 11
+Sent voltage ang at time 0.92: -42.8117561340332 deg from Bus 11
+Sent Frequency at time 0.92: 59.63691090233624 Hz
+=== time step = 0.9400000000000001 seconds ===
+current_time = 0.9400000000000001
+psse_current_time = 0.9417437314987183
+Received active power from 13Bus at time 0.9400000000000001: 2229.078333756862 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.9400000000000001: 0.9458392262458801 pu from Bus 11
+Sent voltage ang at time 0.9400000000000001: -45.684871673583984 deg from Bus 11
+Sent Frequency at time 0.9400000000000001: 59.62392191402614 Hz
+=== time step = 0.9600000000000001 seconds ===
+current_time = 0.9600000000000001
+psse_current_time = 0.9625788331031799
+Received active power from 13Bus at time 0.9600000000000001: 1577.7180244106094 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.9600000000000001: 0.9449646472930908 pu from Bus 11
+Sent voltage ang at time 0.9600000000000001: -48.831050872802734 deg from Bus 11
+Sent Frequency at time 0.9600000000000001: 59.60953099653125 Hz
+=== time step = 0.9800000000000001 seconds ===
+current_time = 0.9800000000000001
+psse_current_time = 0.9834139347076416
+Received active power from 13Bus at time 0.9800000000000001: 1732.2408586828008 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 0.9800000000000001: 0.9451107978820801 pu from Bus 11
+Sent voltage ang at time 0.9800000000000001: -51.87000274658203 deg from Bus 11
+Sent Frequency at time 0.9800000000000001: 59.597631795331836 Hz
+=== time step = 1.0 seconds ===
+current_time = 1.0
+psse_current_time = 1.000082015991211
+Received active power from 13Bus at time 1.0: 2392.789646078651 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.0: 0.9447419047355652 pu from Bus 11
+Sent voltage ang at time 1.0: -54.458396911621094 deg from Bus 11
+Sent Frequency at time 1.0: 59.587883641943336 Hz
+=== time step = 1.02 seconds ===
+current_time = 1.02
+psse_current_time = 1.0209168195724487
+Received active power from 13Bus at time 1.02: 2339.6417200722426 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.02: 0.943917989730835 pu from Bus 11
+Sent voltage ang at time 1.02: -57.85535430908203 deg from Bus 11
+Sent Frequency at time 1.02: 59.5745344273746 Hz
+=== time step = 1.04 seconds ===
+current_time = 1.04
+psse_current_time = 1.0417516231536865
+Received active power from 13Bus at time 1.04: 2252.790312825149 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.04: 0.9436213970184326 pu from Bus 11
+Sent voltage ang at time 1.04: -61.233097076416016 deg from Bus 11
+Sent Frequency at time 1.04: 59.56268451176584 Hz
+=== time step = 1.06 seconds ===
+current_time = 1.06
+psse_current_time = 1.0625864267349243
+Received active power from 13Bus at time 1.06: 1795.2377140823394 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.06: 0.9433628916740417 pu from Bus 11
+Sent voltage ang at time 1.06: -64.67796325683594 deg from Bus 11
+Sent Frequency at time 1.06: 59.55194159410894 Hz
+=== time step = 1.08 seconds ===
+current_time = 1.08
+psse_current_time = 1.083421230316162
+Received active power from 13Bus at time 1.08: 1530.249347047075 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.08: 0.9434190988540649 pu from Bus 11
+Sent voltage ang at time 1.08: -68.1298599243164 deg from Bus 11
+Sent Frequency at time 1.08: 59.54273231327534 Hz
+=== time step = 1.1 seconds ===
+current_time = 1.1
+psse_current_time = 1.1000890731811523
+Received active power from 13Bus at time 1.1: 1675.2435424235891 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.1: 0.9434186816215515 pu from Bus 11
+Sent voltage ang at time 1.1: -70.94752502441406 deg from Bus 11
+Sent Frequency at time 1.1: 59.53584976494312 Hz
+=== time step = 1.12 seconds ===
+current_time = 1.12
+psse_current_time = 1.1209238767623901
+Received active power from 13Bus at time 1.12: 2420.4453605289577 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.12: 0.9430825710296631 pu from Bus 11
+Sent voltage ang at time 1.12: -74.59650421142578 deg from Bus 11
+Sent Frequency at time 1.12: 59.52681362628937 Hz
+=== time step = 1.1400000000000001 seconds ===
+current_time = 1.1400000000000001
+psse_current_time = 1.141758680343628
+Received active power from 13Bus at time 1.1400000000000001: 1990.5565969200243 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.1400000000000001: 0.9422779083251953 pu from Bus 11
+Sent voltage ang at time 1.1400000000000001: -78.41046905517578 deg from Bus 11
+Sent Frequency at time 1.1400000000000001: 59.51661083847284 Hz
+=== time step = 1.16 seconds ===
+current_time = 1.16
+psse_current_time = 1.1625934839248657
+Received active power from 13Bus at time 1.16: 1641.3994031463565 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.16: 0.9423645734786987 pu from Bus 11
+Sent voltage ang at time 1.16: -82.10602569580078 deg from Bus 11
+Sent Frequency at time 1.16: 59.50886266306043 Hz
+=== time step = 1.18 seconds ===
+current_time = 1.18
+psse_current_time = 1.1834282875061035
+Received active power from 13Bus at time 1.18: 1692.079845099513 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.18: 0.9424288868904114 pu from Bus 11
+Sent voltage ang at time 1.18: -85.8510971069336 deg from Bus 11
+Sent Frequency at time 1.18: 59.502368085086346 Hz
+=== time step = 1.2 seconds ===
+current_time = 1.2
+psse_current_time = 1.2000961303710938
+Received active power from 13Bus at time 1.2: 1847.3581911123804 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.2: 0.9422560930252075 pu from Bus 11
+Sent voltage ang at time 1.2: -88.92757415771484 deg from Bus 11
+Sent Frequency at time 1.2: 59.49702691286802 Hz
+=== time step = 1.22 seconds ===
+current_time = 1.22
+psse_current_time = 1.2209309339523315
+Received active power from 13Bus at time 1.22: 2066.480230113939 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.22: 0.9419843554496765 pu from Bus 11
+Sent voltage ang at time 1.22: -92.83065032958984 deg from Bus 11
+Sent Frequency at time 1.22: 59.49028596282005 Hz
+=== time step = 1.24 seconds ===
+current_time = 1.24
+psse_current_time = 1.2417657375335693
+Received active power from 13Bus at time 1.24: 1752.267418309686 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.24: 0.9416695237159729 pu from Bus 11
+Sent voltage ang at time 1.24: -96.78923797607422 deg from Bus 11
+Sent Frequency at time 1.24: 59.48372757062316 Hz
+=== time step = 1.26 seconds ===
+current_time = 1.26
+psse_current_time = 1.2626005411148071
+Received active power from 13Bus at time 1.26: 1580.634417305178 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.26: 0.9417794942855835 pu from Bus 11
+Sent voltage ang at time 1.26: -100.7013931274414 deg from Bus 11
+Sent Frequency at time 1.26: 59.4787641428411 Hz
+=== time step = 1.28 seconds ===
+current_time = 1.28
+psse_current_time = 1.283435344696045
+Received active power from 13Bus at time 1.28: 1556.2829413111954 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.28: 0.9418174624443054 pu from Bus 11
+Sent voltage ang at time 1.28: -104.6599349975586 deg from Bus 11
+Sent Frequency at time 1.28: 59.47441600263119 Hz
+=== time step = 1.3 seconds ===
+current_time = 1.3
+psse_current_time = 1.3001031875610352
+Received active power from 13Bus at time 1.3: 1739.3393840372323 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.3: 0.9417840838432312 pu from Bus 11
+Sent voltage ang at time 1.3: -107.86325073242188 deg from Bus 11
+Sent Frequency at time 1.3: 59.471032563596964 Hz
+=== time step = 1.32 seconds ===
+current_time = 1.32
+psse_current_time = 1.320937991142273
+Received active power from 13Bus at time 1.32: 2150.085831867293 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.32: 0.9415948987007141 pu from Bus 11
+Sent voltage ang at time 1.32: -111.92642211914062 deg from Bus 11
+Sent Frequency at time 1.32: 59.46663647890091 Hz
+=== time step = 1.34 seconds ===
+current_time = 1.34
+psse_current_time = 1.3417727947235107
+Received active power from 13Bus at time 1.34: 1809.9980964747524 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.34: 0.9412288069725037 pu from Bus 11
+Sent voltage ang at time 1.34: -116.05708312988281 deg from Bus 11
+Sent Frequency at time 1.34: 59.461917243897915 Hz
+=== time step = 1.36 seconds ===
+current_time = 1.36
+psse_current_time = 1.3626075983047485
+Received active power from 13Bus at time 1.36: 1407.956476277379 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.36: 0.9414440989494324 pu from Bus 11
+Sent voltage ang at time 1.36: -120.09507751464844 deg from Bus 11
+Sent Frequency at time 1.36: 59.459025263786316 Hz
+=== time step = 1.3900000000000001 seconds ===
+current_time = 1.3900000000000001
+psse_current_time = 1.3917763233184814
+Received active power from 13Bus at time 1.3900000000000001: 1656.6363422742836 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.3900000000000001: 0.9417561292648315 pu from Bus 11
+Sent voltage ang at time 1.3900000000000001: -125.76914978027344 deg from Bus 11
+Sent Frequency at time 1.3900000000000001: 59.45646392181516 Hz
+=== time step = 1.4100000000000001 seconds ===
+current_time = 1.4100000000000001
+psse_current_time = 1.4126111268997192
+Received active power from 13Bus at time 1.4100000000000001: 2008.0583149889774 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.4100000000000001: 0.9416003823280334 pu from Bus 11
+Sent voltage ang at time 1.4100000000000001: -129.9210968017578 deg from Bus 11
+Sent Frequency at time 1.4100000000000001: 59.45385038852692 Hz
+=== time step = 1.42 seconds ===
+current_time = 1.42
+psse_current_time = 1.4209450483322144
+Received active power from 13Bus at time 1.42: 1461.8715453027255 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.42: 0.9413461685180664 pu from Bus 11
+Sent voltage ang at time 1.42: -131.62327575683594 deg from Bus 11
+Sent Frequency at time 1.42: 59.45270497351885 Hz
+=== time step = 1.44 seconds ===
+current_time = 1.44
+psse_current_time = 1.4417798519134521
+Received active power from 13Bus at time 1.44: 1434.294200714877 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.44: 0.9417992830276489 pu from Bus 11
+Sent voltage ang at time 1.44: -135.67735290527344 deg from Bus 11
+Sent Frequency at time 1.44: 59.45128004997969 Hz
+=== time step = 1.46 seconds ===
+current_time = 1.46
+psse_current_time = 1.46261465549469
+Received active power from 13Bus at time 1.46: 1578.3451392728136 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.46: 0.9418836832046509 pu from Bus 11
+Sent voltage ang at time 1.46: -139.8072967529297 deg from Bus 11
+Sent Frequency at time 1.46: 59.45018308237195 Hz
+=== time step = 1.48 seconds ===
+current_time = 1.48
+psse_current_time = 1.4834494590759277
+Received active power from 13Bus at time 1.48: 1458.9793167031883 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.48: 0.9418476223945618 pu from Bus 11
+Sent voltage ang at time 1.48: -143.97109985351562 deg from Bus 11
+Sent Frequency at time 1.48: 59.4488737732172 Hz
+=== time step = 1.5 seconds ===
+current_time = 1.5
+psse_current_time = 1.500117301940918
+Received active power from 13Bus at time 1.5: 2009.1474417534052 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.5: 0.9420009255409241 pu from Bus 11
+Sent voltage ang at time 1.5: -147.26986694335938 deg from Bus 11
+Sent Frequency at time 1.5: 59.448365326970816 Hz
+=== time step = 1.52 seconds ===
+current_time = 1.52
+psse_current_time = 1.5209521055221558
+Received active power from 13Bus at time 1.52: 1544.7013785275617 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.52: 0.9416547417640686 pu from Bus 11
+Sent voltage ang at time 1.52: -151.50637817382812 deg from Bus 11
+Sent Frequency at time 1.52: 59.44671833887696 Hz
+=== time step = 1.54 seconds ===
+current_time = 1.54
+psse_current_time = 1.5417869091033936
+Received active power from 13Bus at time 1.54: 1552.6004601178151 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.54: 0.942079484462738 pu from Bus 11
+Sent voltage ang at time 1.54: -155.590087890625 deg from Bus 11
+Sent Frequency at time 1.54: 59.44695755839348 Hz
+=== time step = 1.56 seconds ===
+current_time = 1.56
+psse_current_time = 1.5626217126846313
+Received active power from 13Bus at time 1.56: 1763.4687589524506 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.56: 0.9421675205230713 pu from Bus 11
+Sent voltage ang at time 1.56: -159.73524475097656 deg from Bus 11
+Sent Frequency at time 1.56: 59.447202533483505 Hz
+=== time step = 1.58 seconds ===
+current_time = 1.58
+psse_current_time = 1.5834565162658691
+Received active power from 13Bus at time 1.58: 2021.0973605303277 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.58: 0.9421052932739258 pu from Bus 11
+Sent voltage ang at time 1.58: -163.9114227294922 deg from Bus 11
+Sent Frequency at time 1.58: 59.44702606648207 Hz
+=== time step = 1.6 seconds ===
+current_time = 1.6
+psse_current_time = 1.6001243591308594
+Received active power from 13Bus at time 1.6: 1885.2174663847443 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.6: 0.9419807195663452 pu from Bus 11
+Sent voltage ang at time 1.6: -167.26705932617188 deg from Bus 11
+Sent Frequency at time 1.6: 59.446726497262716 Hz
+=== time step = 1.62 seconds ===
+current_time = 1.62
+psse_current_time = 1.6209591627120972
+Received active power from 13Bus at time 1.62: 2018.741647753888 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.62: 0.9421702027320862 pu from Bus 11
+Sent voltage ang at time 1.62: -171.38900756835938 deg from Bus 11
+Sent Frequency at time 1.62: 59.4472867436707 Hz
+=== time step = 1.6400000000000001 seconds ===
+current_time = 1.6400000000000001
+psse_current_time = 1.641793966293335
+Received active power from 13Bus at time 1.6400000000000001: 1940.3436227197597 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.6400000000000001: 0.9421598315238953 pu from Bus 11
+Sent voltage ang at time 1.6400000000000001: -175.54306030273438 deg from Bus 11
+Sent Frequency at time 1.6400000000000001: 59.44780569523573 Hz
+=== time step = 1.6600000000000001 seconds ===
+current_time = 1.6600000000000001
+psse_current_time = 1.6626287698745728
+Received active power from 13Bus at time 1.6600000000000001: 1493.7316037811972 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.6600000000000001: 0.9423161745071411 pu from Bus 11
+Sent voltage ang at time 1.6600000000000001: -179.65687561035156 deg from Bus 11
+Sent Frequency at time 1.6600000000000001: 59.44885052740574 Hz
+=== time step = 1.6800000000000002 seconds ===
+current_time = 1.6800000000000002
+psse_current_time = 1.6834635734558105
+Received active power from 13Bus at time 1.6800000000000002: 1556.805499355311 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.6800000000000002: 0.9427758455276489 pu from Bus 11
+Sent voltage ang at time 1.6800000000000002: 176.3038330078125 deg from Bus 11
+Sent Frequency at time 1.6800000000000002: 59.45101836696267 Hz
+=== time step = 1.7000000000000002 seconds ===
+current_time = 1.7000000000000002
+psse_current_time = 1.7001314163208008
+Received active power from 13Bus at time 1.7000000000000002: 1917.122421384723 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.7000000000000002: 0.942843496799469 pu from Bus 11
+Sent voltage ang at time 1.7000000000000002: 173.0219268798828 deg from Bus 11
+Sent Frequency at time 1.7000000000000002: 59.45234064012766 Hz
+=== time step = 1.7200000000000002 seconds ===
+current_time = 1.7200000000000002
+psse_current_time = 1.7209662199020386
+Received active power from 13Bus at time 1.7200000000000002: 2067.4422021256187 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.7200000000000002: 0.9427095651626587 pu from Bus 11
+Sent voltage ang at time 1.7200000000000002: 168.8805389404297 deg from Bus 11
+Sent Frequency at time 1.7200000000000002: 59.453118704259396 Hz
+=== time step = 1.74 seconds ===
+current_time = 1.74
+psse_current_time = 1.7418010234832764
+Received active power from 13Bus at time 1.74: 1463.3222553766252 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.74: 0.9427191615104675 pu from Bus 11
+Sent voltage ang at time 1.74: 164.77688598632812 deg from Bus 11
+Sent Frequency at time 1.74: 59.45414073765278 Hz
+=== time step = 1.76 seconds ===
+current_time = 1.76
+psse_current_time = 1.7626358270645142
+Received active power from 13Bus at time 1.76: 1517.2467659436215 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.76: 0.9433150291442871 pu from Bus 11
+Sent voltage ang at time 1.76: 160.8101043701172 deg from Bus 11
+Sent Frequency at time 1.76: 59.45703523233533 Hz
+=== time step = 1.78 seconds ===
+current_time = 1.78
+psse_current_time = 1.783470630645752
+Received active power from 13Bus at time 1.78: 1974.502890724553 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.78: 0.9434379935264587 pu from Bus 11
+Sent voltage ang at time 1.78: 156.7685546875 deg from Bus 11
+Sent Frequency at time 1.78: 59.45937193930149 Hz
+=== time step = 1.8 seconds ===
+current_time = 1.8
+psse_current_time = 1.8001384735107422
+Received active power from 13Bus at time 1.8: 1807.6349258455502 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.8: 0.9432184100151062 pu from Bus 11
+Sent voltage ang at time 1.8: 153.4792022705078 deg from Bus 11
+Sent Frequency at time 1.8: 59.46030132472515 Hz
+=== time step = 1.82 seconds ===
+current_time = 1.82
+psse_current_time = 1.82097327709198
+Received active power from 13Bus at time 1.82: 1605.918468556886 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.82: 0.9434913396835327 pu from Bus 11
+Sent voltage ang at time 1.82: 149.48797607421875 deg from Bus 11
+Sent Frequency at time 1.82: 59.462366569787264 Hz
+=== time step = 1.84 seconds ===
+current_time = 1.84
+psse_current_time = 1.8418080806732178
+Received active power from 13Bus at time 1.84: 1490.4836804260742 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.84: 0.9438005089759827 pu from Bus 11
+Sent voltage ang at time 1.84: 145.5271759033203 deg from Bus 11
+Sent Frequency at time 1.84: 59.46512231603265 Hz
+=== time step = 1.86 seconds ===
+current_time = 1.86
+psse_current_time = 1.8626428842544556
+Received active power from 13Bus at time 1.86: 1909.7393835643538 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.86: 0.944061815738678 pu from Bus 11
+Sent voltage ang at time 1.86: 141.5773162841797 deg from Bus 11
+Sent Frequency at time 1.86: 59.467983059585094 Hz
+=== time step = 1.8900000000000001 seconds ===
+current_time = 1.8900000000000001
+psse_current_time = 1.8918116092681885
+Received active power from 13Bus at time 1.8900000000000001: 1732.4354842439566 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.8900000000000001: 0.9439931511878967 pu from Bus 11
+Sent voltage ang at time 1.8900000000000001: 135.98374938964844 deg from Bus 11
+Sent Frequency at time 1.8900000000000001: 59.47060978040099 Hz
+=== time step = 1.9100000000000001 seconds ===
+current_time = 1.9100000000000001
+psse_current_time = 1.9126464128494263
+Received active power from 13Bus at time 1.9100000000000001: 1653.38557245062 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.9100000000000001: 0.9443148970603943 pu from Bus 11
+Sent voltage ang at time 1.9100000000000001: 132.08413696289062 deg from Bus 11
+Sent Frequency at time 1.9100000000000001: 59.47349863126874 Hz
+=== time step = 1.92 seconds ===
+current_time = 1.92
+psse_current_time = 1.9209803342819214
+Received active power from 13Bus at time 1.92: 1658.9685696932831 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.92: 0.9444566369056702 pu from Bus 11
+Sent voltage ang at time 1.92: 130.53250122070312 deg from Bus 11
+Sent Frequency at time 1.92: 59.474707804620266 Hz
+=== time step = 1.94 seconds ===
+current_time = 1.94
+psse_current_time = 1.9418151378631592
+Received active power from 13Bus at time 1.94: 1897.1518377615466 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.94: 0.9446771144866943 pu from Bus 11
+Sent voltage ang at time 1.94: 126.64169311523438 deg from Bus 11
+Sent Frequency at time 1.94: 59.47775401175022 Hz
+=== time step = 1.96 seconds ===
+current_time = 1.96
+psse_current_time = 1.962649941444397
+Received active power from 13Bus at time 1.96: 2145.6074123504727 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.96: 0.9447377920150757 pu from Bus 11
+Sent voltage ang at time 1.96: 122.73426818847656 deg from Bus 11
+Sent Frequency at time 1.96: 59.48019750416279 Hz
+=== time step = 1.98 seconds ===
+current_time = 1.98
+psse_current_time = 1.9834847450256348
+Received active power from 13Bus at time 1.98: 1994.7024107630286 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 1.98: 0.944794774055481 pu from Bus 11
+Sent voltage ang at time 1.98: 118.84085083007812 deg from Bus 11
+Sent Frequency at time 1.98: 59.482436031103134 Hz
+=== time step = 2.0 seconds ===
+current_time = 2.0
+psse_current_time = 2.000152587890625
+Received active power from 13Bus at time 2.0: 1811.9727756794575 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.0: 0.9451135993003845 pu from Bus 11
+Sent voltage ang at time 2.0: 115.79417419433594 deg from Bus 11
+Sent Frequency at time 2.0: 59.48489919304848 Hz
+=== time step = 2.02 seconds ===
+current_time = 2.02
+psse_current_time = 2.0209879875183105
+Received active power from 13Bus at time 2.02: 1511.4204606160324 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.02: 0.9455349445343018 pu from Bus 11
+Sent voltage ang at time 2.02: 112.01258850097656 deg from Bus 11
+Sent Frequency at time 2.02: 59.488442447036505 Hz
+=== time step = 2.04 seconds ===
+current_time = 2.04
+psse_current_time = 2.041823387145996
+Received active power from 13Bus at time 2.04: 1795.4105390779873 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.04: 0.9460835456848145 pu from Bus 11
+Sent voltage ang at time 2.04: 108.27954864501953 deg from Bus 11
+Sent Frequency at time 2.04: 59.49241150170565 Hz
+=== time step = 2.06 seconds ===
+current_time = 2.06
+psse_current_time = 2.0626587867736816
+Received active power from 13Bus at time 2.06: 1887.6851189851998 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.06: 0.9462184309959412 pu from Bus 11
+Sent voltage ang at time 2.06: 104.48257446289062 deg from Bus 11
+Sent Frequency at time 2.06: 59.49526945129037 Hz
+=== time step = 2.08 seconds ===
+current_time = 2.08
+psse_current_time = 2.083494186401367
+Received active power from 13Bus at time 2.08: 1820.0277863968686 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.08: 0.9465076923370361 pu from Bus 11
+Sent voltage ang at time 2.08: 100.73252868652344 deg from Bus 11
+Sent Frequency at time 2.08: 59.49812879785895 Hz
+=== time step = 2.1 seconds ===
+current_time = 2.1
+psse_current_time = 2.1001625061035156
+Received active power from 13Bus at time 2.1: 1408.0501350278143 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.1: 0.9468569159507751 pu from Bus 11
+Sent voltage ang at time 2.1: 97.7713851928711 deg from Bus 11
+Sent Frequency at time 2.1: 59.500747695565224 Hz
+=== time step = 2.12 seconds ===
+current_time = 2.12
+psse_current_time = 2.120997905731201
+Received active power from 13Bus at time 2.12: 1724.8062507848865 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.12: 0.9475706815719604 pu from Bus 11
+Sent voltage ang at time 2.12: 94.14955139160156 deg from Bus 11
+Sent Frequency at time 2.12: 59.50498826801777 Hz
+=== time step = 2.14 seconds ===
+current_time = 2.14
+psse_current_time = 2.1418333053588867
+Received active power from 13Bus at time 2.14: 1837.7373376940561 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.14: 0.9477628469467163 pu from Bus 11
+Sent voltage ang at time 2.14: 90.44486999511719 deg from Bus 11
+Sent Frequency at time 2.14: 59.50798099860549 Hz
+=== time step = 2.16 seconds ===
+current_time = 2.16
+psse_current_time = 2.1626687049865723
+Received active power from 13Bus at time 2.16: 1622.2930591367917 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.16: 0.9481142163276672 pu from Bus 11
+Sent voltage ang at time 2.16: 86.78856658935547 deg from Bus 11
+Sent Frequency at time 2.16: 59.510903153568506 Hz
+=== time step = 2.18 seconds ===
+current_time = 2.18
+psse_current_time = 2.183504104614258
+Received active power from 13Bus at time 2.18: 1522.5763493404108 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.18: 0.9487284421920776 pu from Bus 11
+Sent voltage ang at time 2.18: 83.20864868164062 deg from Bus 11
+Sent Frequency at time 2.18: 59.51458230614662 Hz
+=== time step = 2.2 seconds ===
+current_time = 2.2
+psse_current_time = 2.2001724243164062
+Received active power from 13Bus at time 2.2: 1712.6891893840516 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.2: 0.9491835832595825 pu from Bus 11
+Sent voltage ang at time 2.2: 80.35572814941406 deg from Bus 11
+Sent Frequency at time 2.2: 59.517581071704626 Hz
+=== time step = 2.22 seconds ===
+current_time = 2.22
+psse_current_time = 2.221007823944092
+Received active power from 13Bus at time 2.22: 1875.7186076822522 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.22: 0.9495303630828857 pu from Bus 11
+Sent voltage ang at time 2.22: 76.76387023925781 deg from Bus 11
+Sent Frequency at time 2.22: 59.52067958191037 Hz
+=== time step = 2.24 seconds ===
+current_time = 2.24
+psse_current_time = 2.2418432235717773
+Received active power from 13Bus at time 2.24: 1476.3439892372705 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.24: 0.94990074634552 pu from Bus 11
+Sent voltage ang at time 2.24: 73.19528198242188 deg from Bus 11
+Sent Frequency at time 2.24: 59.52353937551379 Hz
+=== time step = 2.27 seconds ===
+current_time = 2.27
+psse_current_time = 2.271012783050537
+Received active power from 13Bus at time 2.27: 1723.500512487059 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.27: 0.9509201049804688 pu from Bus 11
+Sent voltage ang at time 2.27: 68.3426742553711 deg from Bus 11
+Sent Frequency at time 2.27: 59.529057294130325 Hz
+=== time step = 2.2800000000000002 seconds ===
+current_time = 2.2800000000000002
+psse_current_time = 2.2835140228271484
+Received active power from 13Bus at time 2.2800000000000002: 1531.8369669666201 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.2800000000000002: 0.9510555267333984 pu from Bus 11
+Sent voltage ang at time 2.2800000000000002: 66.21755981445312 deg from Bus 11
+Sent Frequency at time 2.2800000000000002: 59.53081229701638 Hz
+=== time step = 2.31 seconds ===
+current_time = 2.31
+psse_current_time = 2.312683582305908
+Received active power from 13Bus at time 2.31: 2203.5635910285496 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.31: 0.9519557952880859 pu from Bus 11
+Sent voltage ang at time 2.31: 61.403175354003906 deg from Bus 11
+Sent Frequency at time 2.31: 59.535690592601895 Hz
+=== time step = 2.32 seconds ===
+current_time = 2.32
+psse_current_time = 2.3210177421569824
+Received active power from 13Bus at time 2.32: 2139.9910470798377 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.32: 0.9516748785972595 pu from Bus 11
+Sent voltage ang at time 2.32: 59.93214416503906 deg from Bus 11
+Sent Frequency at time 2.32: 59.53664151951671 Hz
+=== time step = 2.34 seconds ===
+current_time = 2.34
+psse_current_time = 2.341853141784668
+Received active power from 13Bus at time 2.34: 1869.7127735376744 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.34: 0.9522474408149719 pu from Bus 11
+Sent voltage ang at time 2.34: 56.502201080322266 deg from Bus 11
+Sent Frequency at time 2.34: 59.53869069926441 Hz
+=== time step = 2.36 seconds ===
+current_time = 2.36
+psse_current_time = 2.3626885414123535
+Received active power from 13Bus at time 2.36: 1706.5626963549207 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.36: 0.9529775381088257 pu from Bus 11
+Sent voltage ang at time 2.36: 53.133628845214844 deg from Bus 11
+Sent Frequency at time 2.36: 59.54216346144676 Hz
+=== time step = 2.38 seconds ===
+current_time = 2.38
+psse_current_time = 2.383523941040039
+Received active power from 13Bus at time 2.38: 1909.3761963226962 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.38: 0.9536447525024414 pu from Bus 11
+Sent voltage ang at time 2.38: 49.77915573120117 deg from Bus 11
+Sent Frequency at time 2.38: 59.54578723758459 Hz
+=== time step = 2.4 seconds ===
+current_time = 2.4
+psse_current_time = 2.4001922607421875
+Received active power from 13Bus at time 2.4: 1777.5864036868802 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.4: 0.9539362788200378 pu from Bus 11
+Sent voltage ang at time 2.4: 47.0623893737793 deg from Bus 11
+Sent Frequency at time 2.4: 59.54803828150034 Hz
+=== time step = 2.42 seconds ===
+current_time = 2.42
+psse_current_time = 2.421027660369873
+Received active power from 13Bus at time 2.42: 2178.099243480527 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.42: 0.9545894265174866 pu from Bus 11
+Sent voltage ang at time 2.42: 43.74091720581055 deg from Bus 11
+Sent Frequency at time 2.42: 59.55119725316763 Hz
+=== time step = 2.44 seconds ===
+current_time = 2.44
+psse_current_time = 2.4418630599975586
+Received active power from 13Bus at time 2.44: 1642.0635605354876 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.44: 0.9548405408859253 pu from Bus 11
+Sent voltage ang at time 2.44: 40.359134674072266 deg from Bus 11
+Sent Frequency at time 2.44: 59.553366489708424 Hz
+=== time step = 2.46 seconds ===
+current_time = 2.46
+psse_current_time = 2.462698459625244
+Received active power from 13Bus at time 2.46: 1509.2021463434562 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.46: 0.9557920098304749 pu from Bus 11
+Sent voltage ang at time 2.46: 37.1392936706543 deg from Bus 11
+Sent Frequency at time 2.46: 59.5571100153029 Hz
+=== time step = 2.48 seconds ===
+current_time = 2.48
+psse_current_time = 2.4835338592529297
+Received active power from 13Bus at time 2.48: 1847.171201624676 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.48: 0.9564655423164368 pu from Bus 11
+Sent voltage ang at time 2.48: 33.89207458496094 deg from Bus 11
+Sent Frequency at time 2.48: 59.56069964915514 Hz
+=== time step = 2.5 seconds ===
+current_time = 2.5
+psse_current_time = 2.500202178955078
+Received active power from 13Bus at time 2.5: 1774.2862844374154 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.5: 0.9566773772239685 pu from Bus 11
+Sent voltage ang at time 2.5: 31.242321014404297 deg from Bus 11
+Sent Frequency at time 2.5: 59.562599658966064 Hz
+=== time step = 2.52 seconds ===
+current_time = 2.52
+psse_current_time = 2.5210375785827637
+Received active power from 13Bus at time 2.52: 1432.2658025639732 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.52: 0.9573009610176086 pu from Bus 11
+Sent voltage ang at time 2.52: 28.015865325927734 deg from Bus 11
+Sent Frequency at time 2.52: 59.565334813669324 Hz
+=== time step = 2.54 seconds ===
+current_time = 2.54
+psse_current_time = 2.541872978210449
+Received active power from 13Bus at time 2.54: 1741.1327450733927 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.54: 0.9581308960914612 pu from Bus 11
+Sent voltage ang at time 2.54: 24.856950759887695 deg from Bus 11
+Sent Frequency at time 2.54: 59.568900894373655 Hz
+=== time step = 2.56 seconds ===
+current_time = 2.56
+psse_current_time = 2.5627083778381348
+Received active power from 13Bus at time 2.56: 1817.6624328071653 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.56: 0.9584824442863464 pu from Bus 11
+Sent voltage ang at time 2.56: 21.62380599975586 deg from Bus 11
+Sent Frequency at time 2.56: 59.57133321091533 Hz
+=== time step = 2.58 seconds ===
+current_time = 2.58
+psse_current_time = 2.5835437774658203
+Received active power from 13Bus at time 2.58: 1646.5794524246417 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.58: 0.9589919447898865 pu from Bus 11
+Sent voltage ang at time 2.58: 18.438852310180664 deg from Bus 11
+Sent Frequency at time 2.58: 59.573762314394116 Hz
+=== time step = 2.6 seconds ===
+current_time = 2.6
+psse_current_time = 2.6002120971679688
+Received active power from 13Bus at time 2.6: 1597.928908326912 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.6: 0.9595671892166138 pu from Bus 11
+Sent voltage ang at time 2.6: 15.940337181091309 deg from Bus 11
+Sent Frequency at time 2.6: 59.576171413064 Hz
+=== time step = 2.62 seconds ===
+current_time = 2.62
+psse_current_time = 2.6210474967956543
+Received active power from 13Bus at time 2.62: 1723.8092721083178 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.62: 0.9601660370826721 pu from Bus 11
+Sent voltage ang at time 2.62: 12.815312385559082 deg from Bus 11
+Sent Frequency at time 2.62: 59.579111812636256 Hz
+=== time step = 2.64 seconds ===
+current_time = 2.64
+psse_current_time = 2.64188289642334
+Received active power from 13Bus at time 2.64: 1781.1631776663833 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.64: 0.9606315493583679 pu from Bus 11
+Sent voltage ang at time 2.64: 9.682798385620117 deg from Bus 11
+Sent Frequency at time 2.64: 59.58158377557993 Hz
+=== time step = 2.66 seconds ===
+current_time = 2.66
+psse_current_time = 2.6627182960510254
+Received active power from 13Bus at time 2.66: 2034.3671381441322 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.66: 0.9611361026763916 pu from Bus 11
+Sent voltage ang at time 2.66: 6.576581954956055 deg from Bus 11
+Sent Frequency at time 2.66: 59.58398801274598 Hz
+=== time step = 2.68 seconds ===
+current_time = 2.68
+psse_current_time = 2.683553695678711
+Received active power from 13Bus at time 2.68: 2060.7607334921204 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.68: 0.9614793658256531 pu from Bus 11
+Sent voltage ang at time 2.68: 3.456202745437622 deg from Bus 11
+Sent Frequency at time 2.68: 59.58592286333442 Hz
+=== time step = 2.7 seconds ===
+current_time = 2.7
+psse_current_time = 2.7002220153808594
+Received active power from 13Bus at time 2.7: 1904.5414305163054 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.7: 0.9618702530860901 pu from Bus 11
+Sent voltage ang at time 2.7: 0.9955739378929138 deg from Bus 11
+Sent Frequency at time 2.7: 59.58767649717629 Hz
+=== time step = 2.72 seconds ===
+current_time = 2.72
+psse_current_time = 2.721057415008545
+Received active power from 13Bus at time 2.72: 1512.807972713302 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.72: 0.9624911546707153 pu from Bus 11
+Sent voltage ang at time 2.72: -2.034350872039795 deg from Bus 11
+Sent Frequency at time 2.72: 59.590320847928524 Hz
+=== time step = 2.74 seconds ===
+current_time = 2.74
+psse_current_time = 2.7418928146362305
+Received active power from 13Bus at time 2.74: 1721.0960365800352 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.74: 0.9632923603057861 pu from Bus 11
+Sent voltage ang at time 2.74: -5.004331588745117 deg from Bus 11
+Sent Frequency at time 2.74: 59.593643713742495 Hz
+=== time step = 2.77 seconds ===
+current_time = 2.77
+psse_current_time = 2.7710623741149902
+Received active power from 13Bus at time 2.77: 1702.8671052695067 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.77: 0.9638619422912598 pu from Bus 11
+Sent voltage ang at time 2.77: -9.241734504699707 deg from Bus 11
+Sent Frequency at time 2.77: 59.596782457083464 Hz
+=== time step = 2.7800000000000002 seconds ===
+current_time = 2.7800000000000002
+psse_current_time = 2.7835636138916016
+Received active power from 13Bus at time 2.7800000000000002: 2000.6254125338025 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.7800000000000002: 0.9641796350479126 pu from Bus 11
+Sent voltage ang at time 2.7800000000000002: -11.033531188964844 deg from Bus 11
+Sent Frequency at time 2.7800000000000002: 59.59818044677377 Hz
+=== time step = 2.81 seconds ===
+current_time = 2.81
+psse_current_time = 2.8127331733703613
+Received active power from 13Bus at time 2.81: 1449.5620697894817 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.81: 0.9646468162536621 pu from Bus 11
+Sent voltage ang at time 2.81: -15.247309684753418 deg from Bus 11
+Sent Frequency at time 2.81: 59.600572334602475 Hz
+=== time step = 2.8200000000000003 seconds ===
+current_time = 2.8200000000000003
+psse_current_time = 2.8210673332214355
+Received active power from 13Bus at time 2.8200000000000003: 1623.532999522234 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.8200000000000003: 0.9652407765388489 pu from Bus 11
+Sent voltage ang at time 2.8200000000000003: -16.357372283935547 deg from Bus 11
+Sent Frequency at time 2.8200000000000003: 59.60170797072351 Hz
+=== time step = 2.84 seconds ===
+current_time = 2.84
+psse_current_time = 2.841902732849121
+Received active power from 13Bus at time 2.84: 2101.495998223788 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.84: 0.9656020998954773 pu from Bus 11
+Sent voltage ang at time 2.84: -19.32244873046875 deg from Bus 11
+Sent Frequency at time 2.84: 59.60456321015954 Hz
+=== time step = 2.8600000000000003 seconds ===
+current_time = 2.8600000000000003
+psse_current_time = 2.8627381324768066
+Received active power from 13Bus at time 2.8600000000000003: 1860.5804950355791 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.8600000000000003: 0.965725302696228 pu from Bus 11
+Sent voltage ang at time 2.8600000000000003: -22.327415466308594 deg from Bus 11
+Sent Frequency at time 2.8600000000000003: 59.60586248897016 Hz
+=== time step = 2.88 seconds ===
+current_time = 2.88
+psse_current_time = 2.883573532104492
+Received active power from 13Bus at time 2.88: 1628.071545593645 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.88: 0.9663560390472412 pu from Bus 11
+Sent voltage ang at time 2.88: -25.216630935668945 deg from Bus 11
+Sent Frequency at time 2.88: 59.60811006836593 Hz
+=== time step = 2.9 seconds ===
+current_time = 2.9
+psse_current_time = 2.9002418518066406
+Received active power from 13Bus at time 2.9: 1515.0311029773839 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.9: 0.9668904542922974 pu from Bus 11
+Sent voltage ang at time 2.9: -27.505863189697266 deg from Bus 11
+Sent Frequency at time 2.9: 59.61027838289738 Hz
+=== time step = 2.92 seconds ===
+current_time = 2.92
+psse_current_time = 2.921077251434326
+Received active power from 13Bus at time 2.92: 1835.66587659217 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.92: 0.9674347639083862 pu from Bus 11
+Sent voltage ang at time 2.92: -30.373544692993164 deg from Bus 11
+Sent Frequency at time 2.92: 59.61285361088812 Hz
+=== time step = 2.94 seconds ===
+current_time = 2.94
+psse_current_time = 2.9419126510620117
+Received active power from 13Bus at time 2.94: 1759.3498716872143 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.94: 0.9676553606987 pu from Bus 11
+Sent voltage ang at time 2.94: -33.2927131652832 deg from Bus 11
+Sent Frequency at time 2.94: 59.61436366662383 Hz
+=== time step = 2.96 seconds ===
+current_time = 2.96
+psse_current_time = 2.9627480506896973
+Received active power from 13Bus at time 2.96: 1600.4004309470147 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.96: 0.9681496024131775 pu from Bus 11
+Sent voltage ang at time 2.96: -36.144081115722656 deg from Bus 11
+Sent Frequency at time 2.96: 59.616289073601365 Hz
+=== time step = 2.98 seconds ===
+current_time = 2.98
+psse_current_time = 2.983583450317383
+Received active power from 13Bus at time 2.98: 1504.1913826143261 kw
+for bus_name=11, bus_PQ_index=8 
+updating load fine
+Sent voltage mag at time 2.98: 0.9686999917030334 pu from Bus 11
+Sent voltage ang at time 2.98: -38.96510696411133 deg from Bus 11
+Sent Frequency at time 2.98: 59.61858680471778 Hz
+Federate finalized
+Run to 10 sec Dynamic run uses time: 2021 seconds (= 0 minutes).
+Saved output to ieee_14\ieee14_run_trip_reduced_inertia.outx

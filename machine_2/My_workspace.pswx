@@ -1,0 +1,38 @@
+<workspace name="My_workspace" version="5.0.2" crc="95113024">
+  <projects>
+    <project type="project" name="IBR_EMT_model" filepath=".\IBR_EMT_model.pscx" />
+  </projects>
+  <simulations>
+    <simulation name="Cosimu" dependson="None" id="561230753" classid="SimulationSet">
+      <paramlist name="Default">
+        <param name="enabled" value="true" />
+        <param name="before_run" value="" />
+        <param name="before_block" value="true" />
+        <param name="after_run" value="" />
+        <param name="after_block" value="true" />
+      </paramlist>
+      <task namespace="IBR_EMT_model" classid="SimulationTask" id="418058683" order="0" pmr="false" volley="1" ammunition="1" rank_snap="false" clean="false">
+        <paramlist name="Options">
+          <param name="simulationset" value="" />
+          <param name="namespace" value="IBR_EMT_model" />
+          <param name="name" value="" />
+          <param name="ammunition" value="1" />
+          <param name="volley" value="1" />
+          <param name="affinity_type" value="1" />
+          <param name="affinity" value="1" />
+          <param name="rank_snap" value="false" />
+          <param name="substitutions" value="" />
+          <param name="clean" value="false" />
+        </paramlist>
+      </task>
+    </simulation>
+  </simulations>
+  <pmr />
+  <messagegrid expanded="error">
+    <column name="Icon" />
+    <column name="Id" />
+    <column name="Component" />
+    <column name="Namespace" />
+    <column name="Description" />
+  </messagegrid>
+</workspace>
