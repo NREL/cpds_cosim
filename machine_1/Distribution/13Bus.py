@@ -35,7 +35,6 @@ def positive_value(value: str) -> float:
         return val
     raise ValueError("Value must be positive")
 
-# cfg_file = 'C:\\Users\sdong2\\OneDrive - NREL\\PSCAD studies\\OE_TD\\04 Python demo\\My_workspace.temp\\cosim_40001.cfg'
 # run_time = 5.0
 
 mydir = Path(os.path.dirname(__file__))
@@ -52,7 +51,7 @@ mydir = Path(os.path.dirname(__file__))
 # print("reading json okay!")
 
 #fedinitstring = "--federates=1"
-fedinitstring = '--federates=1 --broker_address=kbroker.hpc.nrel.gov:26600' 
+fedinitstring = '--federates=1 --broker_address=<IP>:<port number>' 
 deltat = 0.01
 
 helicsversion = h.helicsGetVersion()

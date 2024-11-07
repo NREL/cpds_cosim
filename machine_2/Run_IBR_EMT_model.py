@@ -33,7 +33,7 @@ cwd = os.getcwd()
 cfg_file = os.path.join(cwd, "My_workspace.temp\\cosim_40001.cfg")
 run_time = 5.0
 
-fedinitstring = "--federates=1 --broker_address=kbroker.hpc.nrel.gov:26600"
+fedinitstring = "--federates=1 --broker_address=<IP>:<port number>"
 deltat = 0.01
 
 helicsversion = h.helicsGetVersion()

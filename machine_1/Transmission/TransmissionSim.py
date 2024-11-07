@@ -73,7 +73,7 @@ SUBSCRIPTIONS = {}
 fedinfo = h.helicsCreateFederateInfo()
 #fedinitstring = "--broker=mainbroker --federates=1" # this string is for defining the core
 #fedinitstring = "--federates=1" # this string is for defining the core
-fedinitstring = '--federates=1 --broker_address=kbroker.hpc.nrel.gov:26600'
+fedinitstring = '--federates=1 --broker_address=<IP>:<port number>'
 h.helicsFederateInfoSetCoreName(fedinfo, f"{federate_name}") # define name
 h.helicsFederateInfoSetCoreTypeFromString(fedinfo, "tcp_ss") # core type
 h.helicsFederateInfoSetCoreInitString(fedinfo, fedinitstring) # define number fo federate and tell the federate it is the main broker
